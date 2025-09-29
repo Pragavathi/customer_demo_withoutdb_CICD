@@ -1,0 +1,16 @@
+{
+ "createCustomer": {
+  "name": "Charli",
+  "email": "charlie@example.com",
+  "city": "New Jersey",
+  "state": "Mumbai",
+  "country": "India"
+},
+"updateCustomer" : {
+   "name": "Charli",
+  "email": "charlie@example.com",
+  "city": " ",
+  "state": "Delhi",
+  "country": "India"
+}
+}

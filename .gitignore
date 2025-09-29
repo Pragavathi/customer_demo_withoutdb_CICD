@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Test output
+test-output/
+!test-output/HELP.md
