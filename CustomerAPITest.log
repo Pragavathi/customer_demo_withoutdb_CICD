@@ -1,0 +1,415 @@
+Request method:	GET
+Request URI:	http://localhost:9095/api/customers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:05:25 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA"
+    }
+]
+Request method:	POST
+Request URI:	http://localhost:9095/api/customers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "India",
+    "city": "New Jersey",
+    "name": "Charli",
+    "state": "Mumbai",
+    "email": "charlie@example.com"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:05:26 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 3,
+    "name": "Charli",
+    "email": "charlie@example.com",
+    "city": "New Jersey",
+    "state": "Mumbai",
+    "country": "India"
+}
+Request method:	GET
+Request URI:	http://localhost:9095/api/customers/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "India",
+    "city": "New Jersey",
+    "name": "Charli",
+    "state": "Mumbai",
+    "email": "charlie@example.com"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:05:26 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 3,
+    "name": "Charli",
+    "email": "charlie@example.com",
+    "city": "New Jersey",
+    "state": "Mumbai",
+    "country": "India"
+}
+Request method:	PUT
+Request URI:	http://localhost:9095/api/customers/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=3
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "India",
+    "city": " ",
+    "name": "Charli",
+    "state": "Delhi",
+    "email": "charlie@example.com"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:05:27 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 3,
+    "name": "Charli",
+    "email": "charlie@example.com",
+    "city": " ",
+    "state": "Delhi",
+    "country": "India"
+}
+Request method:	GET
+Request URI:	http://localhost:9095/api/customers/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=3
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "India",
+    "city": " ",
+    "name": "Charli",
+    "state": "Delhi",
+    "email": "charlie@example.com"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:05:27 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 3,
+    "name": "Charli",
+    "email": "charlie@example.com",
+    "city": " ",
+    "state": "Delhi",
+    "country": "India"
+}
+Request method:	GET
+Request URI:	http://localhost:9095/api/customers/search?city=%20
+Proxy:			<none>
+Request params:	<none>
+Query params:	city= 
+Form params:	<none>
+Path params:	id=3
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "India",
+    "city": " ",
+    "name": "Charli",
+    "state": "Delhi",
+    "email": "charlie@example.com"
+}
+Request method:	DELETE
+Request URI:	http://localhost:9095/api/customers/3?city=%20
+Proxy:			<none>
+Request params:	<none>
+Query params:	city= 
+Form params:	<none>
+Path params:	id=3
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "India",
+    "city": " ",
+    "name": "Charli",
+    "state": "Delhi",
+    "email": "charlie@example.com"
+}
+HTTP/1.1 200 
+Content-Length: 0
+Date: Wed, 01 Oct 2025 15:05:27 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Request method:	GET
+Request URI:	http://localhost:9095/api/customers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA"
+    }
+]
+Request method:	POST
+Request URI:	http://localhost:9095/api/customers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "India",
+    "city": "New Jersey",
+    "name": "Charli",
+    "state": "Mumbai",
+    "email": "charlie@example.com"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:12:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 4,
+    "name": "Charli",
+    "email": "charlie@example.com",
+    "city": "New Jersey",
+    "state": "Mumbai",
+    "country": "India"
+}
+Request method:	GET
+Request URI:	http://localhost:9095/api/customers/4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:12:44 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 4,
+    "name": "Charli",
+    "email": "charlie@example.com",
+    "city": "New Jersey",
+    "state": "Mumbai",
+    "country": "India"
+}
+Request method:	PUT
+Request URI:	http://localhost:9095/api/customers/4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "India",
+    "city": " ",
+    "name": "Charli",
+    "state": "Delhi",
+    "email": "charlie@example.com"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:12:44 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 4,
+    "name": "Charli",
+    "email": "charlie@example.com",
+    "city": " ",
+    "state": "Delhi",
+    "country": "India"
+}
+Request method:	GET
+Request URI:	http://localhost:9095/api/customers/4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:12:44 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 4,
+    "name": "Charli",
+    "email": "charlie@example.com",
+    "city": " ",
+    "state": "Delhi",
+    "country": "India"
+}
+Request method:	GET
+Request URI:	http://localhost:9095/api/customers/search?city=%20
+Proxy:			<none>
+Request params:	<none>
+Query params:	city= 
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 01 Oct 2025 15:12:44 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "id": 4,
+        "name": "Charli",
+        "email": "charlie@example.com",
+        "city": " ",
+        "state": "Delhi",
+        "country": "India"
+    }
+]
+Request method:	DELETE
+Request URI:	http://localhost:9095/api/customers/4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Length: 0
+Date: Wed, 01 Oct 2025 15:12:44 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
