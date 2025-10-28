@@ -22,6 +22,8 @@ public class CustomerService {
                 "John Doe", "john@example.com", "New York", "NY", "USA"));
         customers.add(new Customer(idCounter.getAndIncrement(), 
                 "Jane Smith", "jane@example.com", "Los Angeles", "CA", "USA"));
+          customers.add(new Customer(idCounter.getAndIncrement(), 
+                "Benny Wagen", "Benne@example.com", "Manila", "PA", "USA"));
     }
 
     public List<Customer> getAllCustomers() {
