@@ -17,7 +17,7 @@ public class CustomerService {
     private final AtomicLong idCounter = new AtomicLong(1);
 
     public CustomerService() {
-        // Add some static customer with email, city, state, country
+        // Add some static customer with email, city, state, country detials
         customers.add(new Customer(idCounter.getAndIncrement(), 
                 "John Doe", "john@example.com", "New York", "NY", "USA"));
         customers.add(new Customer(idCounter.getAndIncrement(), 
